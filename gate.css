@@ -506,11 +506,21 @@ table, th, tr, td{
     padding: 20px ;
     align-items: center;
     margin-left: 200px;
+    text-align: justify;
 }
+    td{
+    color: rgb(16, 16, 116);
+}
+
 
 #footer-section{
     height: 500px;
-    background-color: grey;
+    background-color: rgb(207, 199, 199);
+    border-radius: 10px;
+}
+footer{
+    margin-top: 25px;
+    margin-left: 60px;
 }
 
 
