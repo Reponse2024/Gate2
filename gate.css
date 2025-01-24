@@ -159,7 +159,6 @@ nav {
     margin-left: 10%;
     width: 80%;
     height: 200px;
-    /* background-color: black; */
     color: white;
   }
   #pic1{
@@ -324,6 +323,205 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* row four */
+
+#row-four{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    margin-left: 10%;
+}
+
+/* for divs */
+#left-side{
+    height: 150px;
+    width: 60%;
+}
+#right-side{
+    margin-left: 50px;
+    width: 60%;
+    height: 150px;
+
+}
+
+/* fro images */
+
+#r4-imgs{
+    border-radius: 10px;   
+ } 
+#with-finally{
+color: rgb(68, 68, 104);
+font-weight: bolder;
+}
+
+/* row five */
+/* for paragraph and header */
+
+#alone{
+    width: 80%;
+    height: 200px;
+    margin-left: 10%;
+}
+#h1{
+    color: rgb(40, 40, 75);
+}
+
+
+/*  row six */
+
+#row-six{
+    display: flex;
+    margin-left: 10%;
+    width: 80%;
+    height: 400px;
+}
+
+
+/* for divs */
+
+#six-one{
+    width: 25%;
+    height: 350px;
+    border-radius: 10px; 
+    }
+    #sixs{
+      margin-left: 20px;
+      width: 25%;
+      height: 350px;
+      }
+  
+    /* for images */
+    #r6-imgs{
+      width: 220px;
+      height: 40%;
+      border-radius: 10px; 
+  
+    }
+
+
+    /* this is row seven */
+#row-seven{
+   display: flex; 
+   margin-left: 10%;
+   
+}
+#homee{
+    color: rgb(40, 40, 75);
+    height: 250px;
+}
+#homess{
+    margin-left: 20px;
+    width: 20%;
+    height: 300px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    color: white;
+}
+#r2-imgss{
+    width: 220px;
+    height: 300px;
+    border-radius: 10px; 
+    position: absolute;
+  }
+  #hol-homee{
+    color: white;
+    position: relative;
+    margin-top: 255px;
+    margin-left: 7px;
+    font-size: 20px;
+  }
+
+  /* this is row eight */
+
+  #row-eight{
+    margin-left: 10%;
+    width: 80%;
+    height: 100px;
+    display: flex;
+    color: rgb(40, 40, 75);
+    margin-top: 90px;
+  }
+  #eight-one{
+    width: 25%;
+    height: 100%;
+    }
+#eight-ones{
+margin-left: 20px;
+width: 25%;
+height: 100%;
+}
+#light1{
+    width: 30px;
+    height: 30px;
+}
+
+
+/* this is row nine */
+
+#row-nine{
+    width: 80%;
+    height: 500px;
+    border-radius: 14px;
+    margin-left: 10%;
+    background: url('girl.avif');
+    margin-top: 100px;
+}
+#nine-one{
+    background-color: white;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    color:rgb(40, 40, 75);
+    width: 40%;
+    border-radius: 13px;
+}
+#nine-btn{
+    background-color: rgb(40, 40, 75);
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+#nine-par{
+    margin-left: 20px;
+}
+
+/*  this is row ten */
+
+#row-ten{
+    margin-left: 10%;
+    color: rgb(51, 51, 87);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+ul, li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+table, th, tr, td{
+    border: none;
+    padding: 20px ;
+    align-items: center;
+    margin-left: 200px;
+}
+
+#footer-section{
+    height: 500px;
+    background-color: grey;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
