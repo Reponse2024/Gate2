@@ -1,3 +1,334 @@
-h1{
-    font-size: 25px;
+/* Header container */
+.header-section{
+    width: 100%;
+    height: 1000px;
 }
+
+/* Header row one */
+.header-section-nav{
+    width: 100%;
+    height: 7%;
+    background-color: white;
+    display: flex;
+}
+
+/* Logo styles */
+.logo{
+    margin-left: 45px;
+}
+#logo1{
+    margin-top: 20px;
+}
+
+/* Menus or tabs  */
+#menus{
+    float: right;
+    margin-left: 40%;
+}
+
+nav {
+    text-align: right; /* Align the entire navigation to the right */
+    margin-right: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block; /* Display the list items horizontally */
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  /* Header section two */
+  #header-section-two{
+    background: url('family.avif');
+    height: 60%;
+    width: 100%;
+    position: static;
+    top: 0px;
+  }
+  #par-form{
+    align-content: center;
+  }
+  #header-par{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 240px;
+  }
+  #div-form{
+    position: sticky;
+    top: 0;
+    width: 90%;
+    margin-left: 5%;
+    height: 80px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: -610px;
+    margin-bottom: 610px;
+    top: 0px;
+  }
+  input{
+    border-radius: 8px;
+    height: 45px;
+    background-color: white;
+    border-color: rgb(201, 193, 193);
+    width: 30%;
+    display: inline-flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgb(61, 60, 60);
+    font-size: 15px;
+  }
+  #seek{
+    background-color: rgb(16, 16, 49);
+    color: white;
+    font-size: 15px;
+    border-radius: 18px;
+    height: 45px;
+    width: 65px;
+    font-weight: bolder;
+  }
+
+  /* Body Sections */
+
+  #body-section-one{
+    margin-left: 10%;
+    width: 80%;
+    height: 95px;
+    border-radius: 10px;
+    background-color: rgb(23, 23, 58);
+    margin-top: -310px;
+    display: flex;
+  }
+  #message{
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+    margin-top: 20px;
+    border-radius: 30px;
+  }
+  #body-par-one{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  #register{
+    margin-left: 450px;
+    background: none;
+    color: white;
+    font-size: 12px;
+    border: none;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  /* Body section two */
+
+  #like-trips{
+    color: rgb(23, 23, 58);
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10%;
+    font-weight: bolder;
+  }
+  #travelers{
+    font-size: 14px;
+    color: rgb(23, 23, 58);
+    margin-left: 10%;
+    margin-top: -30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+
+  /* row one */
+  .row-one{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    width: 80%;
+    height: 200px;
+    /* background-color: black; */
+    color: white;
+  }
+  #pic1{
+    width: 25%;
+    height: 170px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    color: black;
+  }
+  #pic2{
+    margin-left: 20px;
+    width: 25%;
+    height: 170px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    color: black;
+  }
+  #pic3{
+    margin-left: 20px;
+    width: 25%;
+    height: 170px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    color: black;
+  }
+  #pic4{
+    margin-left: 20px;
+    width: 25%;
+    height: 170px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    color: black;
+  }
+  #rimg1{
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+  }
+  #rimg2{
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+  }
+  #rimg3{
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+  }
+  #rimg4{
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+  }
+
+  /* row two */
+
+  #accommodations{
+    font-size: 28px;
+    color: rgb(25, 25, 53);
+    margin-left: 10%;
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #row-two{
+    display: flex;
+    margin-left: 10%;
+    width: 80%;
+    height: 250px;
+  }
+  #home{
+    width: 20%;
+    height: 100%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    color: white;
+  }
+  /* for sub-divisions */
+  #homes{
+    margin-left: 20px;
+    width: 20%;
+    height: 100%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    color: white;
+  }
+  /* for images */
+  #r2-imgs{
+    width: 220px;
+    height: 35%;
+    border-radius: 10px; 
+    position: absolute;
+  }
+  /* for paragraphs */
+  #hol-home{
+    color: white;
+    position: relative;
+    margin-top: 220px;
+    margin-left: 7px;
+    font-size: 20px;
+  }
+
+
+  /* Row three */
+  /* for  outer div*/
+  #row-three{
+    display: flex;
+    margin-left: 10%;
+    width: 80%;
+    height: 400px;
+  }
+
+  #browse{
+    margin-left: 10%;
+    font-size: 30px;
+    color:  rgb(25, 25, 53);
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #period{
+    margin-left: 10%;
+  }
+  /* for divs */
+  #trip1{
+  width: 25%;
+  height: 350px;
+  border-radius: 10px; 
+  }
+  #trips{
+    margin-left: 20px;
+    width: 25%;
+    height: 350px;
+    }
+
+  /* for images */
+  #r3-imgs{
+    width: 220px;
+    height: 40%;
+    border-radius: 10px; 
+
+  }
+
+  /* for paragraphs */
+strong, b{
+color:  rgb(47, 47, 82);
+font-size: 16px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#container{
+color: rgb(68, 68, 104);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  /* for buttons */
+#btn1{
+    background-color: rgb(116, 167, 116);
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    border-style: none;
+    width: 30px;
+    height: 20px;
+}
+
+/* row four */
+
+
+
+
+
+
+
+  
